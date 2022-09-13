@@ -9,5 +9,5 @@ btn.addEventListener('click', bgColor);
 
 function bgColor() {
   bodyColor.style.backgroundColor = getRandomHexColor();
-  textColor.textContent = getRandomHexColor();
+  textColor.textContent = bodyColor.style.backgroundColor;
 }
